@@ -1,0 +1,156 @@
+body {
+  background-color: #f2f3f5;
+}
+
+.container {
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+}
+
+/*User Info*/
+
+.Profile {
+  border: 1px solid black;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  margin-right: 20px;
+}
+
+.imgProfileContainer {
+  display: flex;
+  flex: 2;
+  margin-top: 10px;
+  border: 2px solid #053c5c;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.imgProfileContainer img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.userName {
+  font-size: 25px;
+  color: #21728d;
+}
+
+p {
+  font-weight: bold;
+}
+
+.userLocation {
+  flex: 2;
+}
+/* Publish */
+.Post {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  border-bottom: 2px;
+}
+
+.imgProfile {
+  display: flex;
+  flex: 2;
+  border: 2px solid #053c5c;
+  border-radius: 2px 4px 2px;
+  background-color: white;
+}
+.imgProfile img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.Publish {
+  display: flex;
+  flex: 2;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.privatePublish {
+  display: flex;
+  flex: 2;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  display: inline-flex;
+  border: 2px solid #f2f3f5;
+  margin-top: 2rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+
+.openPublish {
+  display: flex;
+  flex: 2;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* Warning Painel */
+
+.Warning {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+/* Eficiencia*/
+.Efficiency {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+.Activies {
+  display: flex;
+}
+
+.Projects {
+  display: flex;
+}
+
+.Total {
+  display: flex;
+}
+
+/*Aniversário*/
+
+.Birthday {
+  display: flex;
+  flex: 1;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+/* Pendencias */
+
+.Pending {
+  display: flex;
+  flex: 1;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
