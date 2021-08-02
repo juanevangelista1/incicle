@@ -1,0 +1,80 @@
+.postContainer {
+  padding: 16px;
+  border-radius: 8px;
+  background-color: white;
+  margin-bottom: 16px;
+  color: #9c9c9b;
+}
+
+.userPostData {
+  display: flex;
+  justify-content: space-between;
+}
+
+.postData {
+  margin-left: 8px;
+}
+.postData .userName {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.postTimeAndPrivacy {
+  display: flex;
+  color: #9c9c9b;
+  font-size: 12px;
+}
+
+.likes {
+  display: flex;
+}
+
+.likesDescription {
+  margin-left: 8px;
+}
+
+.comments {
+  margin-right: 8px;
+}
+
+.postTime {
+  display: flex;
+  margin-right: 8px;
+}
+
+.postPrivacy {
+  display: flex;
+}
+
+.userData {
+  display: flex;
+}
+
+.postActions {
+  display: flex;
+  border-top: 1px solid #f2f3f5;
+  border-bottom: 1px solid #f2f3f5;
+  padding: 8px;
+}
+.action {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  width: 100px;
+  padding: 8px 16px;
+  margin: 0;
+}
+
+.postContent {
+  margin: 16px 0;
+}
+
+.likeAndComment {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.commentAndShare {
+  display: flex;
+}
